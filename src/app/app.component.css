@@ -1,0 +1,43 @@
+/*Google fonts*/@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{ 
+    padding: 0; 
+    margin: 0;
+}
+
+form{ 
+    max-width: 25em; 
+    margin: 1em auto;
+}
+
+.form-group{
+    background: #eeeeee;
+    padding: 0.5rem
+}
+
+.input-group-text{
+    cursor: pointer;
+}
+
+.data{
+    margin: 1rem 0 0 0
+}
+
+.list-instyled{
+    list-style: none;
+    padding: 0
+}
+
+.list-instyled > li{
+    background: white;
+    border-left: 6px #007bff solid;
+    padding: 1rem;
+    margin: 1rem 0
+}
+
+.delete-todo{
+    float: right;
+    color: #f51c1d;
+    font-weight: 600;
+    cursor: pointer;
+}

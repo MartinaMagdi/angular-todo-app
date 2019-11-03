@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-app';
+  todo = ''
+  todos = []
+
+  addTodo(){
+    if(this.todo)
+    this.todos.push(this.todo)
+    this.todo = ''
+  }
+
+  DeleteTodo(index){
+    console.log(index)
+    this.todos.splice(index, 1);
+  }
 }
